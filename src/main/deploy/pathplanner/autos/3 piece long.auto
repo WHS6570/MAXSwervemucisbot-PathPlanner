@@ -1,0 +1,103 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.8390924838721711,
+      "y": 4.376994535979592
+    },
+    "rotation": -53.343891584033024
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "LockTargetAuto"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Note 1-2 Path"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IRS"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Untouch"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Note 2-Goal Path"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LockTargetAuto"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Goal-Note 3 Path"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IRS"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Untouch"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Note 3-Goal Path"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LockTargetAuto"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

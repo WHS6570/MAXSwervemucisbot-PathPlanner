@@ -1,0 +1,139 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.72,
+      "y": 4.35
+    },
+    "rotation": -60.227141006807095
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "start-1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IRS"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Untouch"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "1-2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IRS"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Untouch"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "2-3"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IRS"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Untouch"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "3-4"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IRS"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Untouch"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4-5"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IRS"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Untouch"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

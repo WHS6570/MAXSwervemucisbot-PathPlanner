@@ -1,0 +1,52 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 0.5764728117133954,
+        "y": 4.094921554772019
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 0.5667461571889965,
+        "y": 4.114374863820816
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.3740584827141216,
+        "y": 4.367267881455193
+      },
+      "prevControl": {
+        "x": 1.3740584827141216,
+        "y": 4.386721190503992
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 360.0,
+    "maxAngularAcceleration": 360.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -32.828541791412455,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Shoot getaway",
+  "previewStartingState": {
+    "rotation": 0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

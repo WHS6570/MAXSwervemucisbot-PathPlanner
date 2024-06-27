@@ -1,0 +1,145 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.5667461571889965,
+      "y": 6.974011293994152
+    },
+    "rotation": 0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "start-goal"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LockTargetAuto"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4p-Goal-2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IRS"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Untouch"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4p-Piece2-Goal"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LockTargetAuto"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": " 4pGoal-piece3"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IRS"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Untouch"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Piece3-Goal"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LockTargetAuto"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4p-Goal-Piece4"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IRS"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Untouch"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4p-4p-Move"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LockTargetAuto"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

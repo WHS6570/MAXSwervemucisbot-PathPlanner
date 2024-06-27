@@ -1,0 +1,52 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.28970984956188,
+        "y": 0.7781323619519257
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 8.284294137409876,
+        "y": 0.7795697640742648
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 3.0081364428131696,
+        "y": 1.429818215086667
+      },
+      "prevControl": {
+        "x": 3.0178630973440033,
+        "y": 1.4492715241412923
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 360.0,
+    "maxAngularAcceleration": 360.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 169.87532834460228,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "L'NUSUISANCE",
+  "previewStartingState": {
+    "rotation": -92.66300076606731,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

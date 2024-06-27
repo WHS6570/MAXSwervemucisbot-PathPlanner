@@ -1,0 +1,37 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.354605173665323,
+      "y": 7.051824530189345
+    },
+    "rotation": 0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "STARTDENIDE"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "HEHEIHEIHEI1"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AURAREVIR"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

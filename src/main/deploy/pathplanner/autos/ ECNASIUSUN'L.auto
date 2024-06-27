@@ -1,0 +1,85 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.6640127024329873,
+      "y": 4.279727990735602
+    },
+    "rotation": -57.33908727832619
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "LockTargetAuto"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "BIE start-1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IRS"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "HAHA"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IRS"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Untouch"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "2nd-goal"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LockTargetAuto"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

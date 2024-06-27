@@ -1,0 +1,24 @@
+{
+  "robotWidth": 0.81,
+  "robotLength": 0.9652,
+  "holonomicMode": true,
+  "pathFolders": [
+    "3 Piece Long",
+    "3Piece-Under",
+    "4 Piece Close",
+    "AMP PIECE",
+    "Dumper",
+    "L'NUSUISANCE",
+    "New 4 Piece",
+    "New Folder",
+    "Best Idea Ever",
+    "Shoot getaway",
+    "start"
+  ],
+  "autoFolders": [],
+  "defaultMaxVel": 4.0,
+  "defaultMaxAccel": 3.0,
+  "defaultMaxAngVel": 360.0,
+  "defaultMaxAngAccel": 360.0,
+  "maxModuleSpeed": 4.5
+}

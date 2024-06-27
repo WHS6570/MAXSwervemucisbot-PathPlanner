@@ -1,0 +1,49 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.5667461571889965,
+      "y": 6.964284639469753
+    },
+    "rotation": 0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AutoAmp"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Amp-Note1-goal"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AMP-Note2-Score"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AMP_Score-ArmDown"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AMP-Note2-Score"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

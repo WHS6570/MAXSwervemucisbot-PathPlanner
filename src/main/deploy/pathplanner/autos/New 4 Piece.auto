@@ -1,0 +1,133 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.9148092481648629,
+      "y": 6.769068976734444
+    },
+    "rotation": 59.98163257239097
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "LockTargetAuto"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Goal-Note2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IRS"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Untouch"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Note2-shoot"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LockTargetAuto"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Goal2-Piece3"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IRS"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Untouch"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LockTargetAuto"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Note3-Note4"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IRS"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Untouch"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Note4-goal"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LockTargetAuto"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}
