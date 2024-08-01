@@ -10,11 +10,11 @@ import frc.robot.subsystems.ClimberSubsystem;
 import frc.robot.subsystems.IntakeSubsystem;
 import frc.robot.subsystems.SASubsystem;
 
-public class ClimberUnlock extends Command {
+public class ClimberStop extends Command {
 private final ClimberSubsystem m_robotClimber;
 double distance;    
 
-  public ClimberUnlock(ClimberSubsystem climb) {
+  public ClimberStop(ClimberSubsystem climb) {
 
     m_robotClimber = climb;
     addRequirements(m_robotClimber);
@@ -22,7 +22,7 @@ double distance;
   @Override
   public void execute() {
     //m_robotIntake.engulf(-1);
-    m_robotClimber.unlock();
+    m_robotClimber.climb(0);
   }
   @Override
  public boolean isFinished() {

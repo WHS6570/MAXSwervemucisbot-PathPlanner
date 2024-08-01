@@ -14,6 +14,7 @@ import com.revrobotics.Rev2mDistanceSensor.Port;
 
 public class IntakeSubsystem extends SubsystemBase {
   /** Creates a new ExampleSubsystem. */
+  //private final ClimberSubsystem m_robotClimber = new ClimberSubsystem();
 
   CANSparkMax m_engulfmotor = new CANSparkMax(45, MotorType.kBrushless);
   //private final I2C.Port i2cPort = I2C.Port.kOnboard;
@@ -35,7 +36,10 @@ public class IntakeSubsystem extends SubsystemBase {
       NetworkTable table = NetworkTableInstance.getDefault().getTable("limelight");
   NetworkTableEntry tv = table.getEntry("tv");
   double target = tv.getDouble(2.0);
-  if (seeIR()<=6) {
+  //if (ClimberSubsystem.lockstatus==false) {
+   // LED.blinkin.set(-0.25);
+  //} else
+   if (seeIR()<=6) {
     LED.blinkin.set(0.63); //0.27 is flashin gold
   } else   if (target == 1) {
     LED.blinkin.set(0.77);

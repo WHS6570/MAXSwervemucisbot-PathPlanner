@@ -15,7 +15,7 @@ public class ClimberSubsystem extends SubsystemBase {
   Servo ratchetServo = new Servo(0);
   //private final RelativeEncoder m_climbingEncoder;
   RelativeEncoder m_climbingEncoder = m_climbingmotor.getEncoder();
-
+  boolean lockstatus = true;
 
 
   public ClimberSubsystem() {
@@ -24,6 +24,7 @@ public class ClimberSubsystem extends SubsystemBase {
   m_climbingmotor.enableSoftLimit(SoftLimitDirection.kForward, true);
   m_climbingmotor.enableSoftLimit(SoftLimitDirection.kReverse, true);
   ratchetServo.setDisabled();
+
 
   }
   
@@ -37,12 +38,17 @@ public class ClimberSubsystem extends SubsystemBase {
     SmartDashboard.putNumber("climbpos", m_climbingEncoder.getPosition());
 
   }
+  public boolean isLocked() {
+    return lockstatus;
+
+  }
 public void unlock(){
   ratchetServo.set(1);
- 
+ lockstatus = false;
 }
 public void lock(){
   ratchetServo.setDisabled();
+  lockstatus = true;
 }
 public double getPos() {
 return m_climbingEncoder.getPosition();

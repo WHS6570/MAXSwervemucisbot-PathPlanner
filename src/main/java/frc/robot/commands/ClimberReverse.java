@@ -14,15 +14,14 @@ public class ClimberReverse extends Command {
 private final ClimberSubsystem m_robotClimber;
 double distance;    
 
-  public ClimberReverse(double targdist, ClimberSubsystem climb) {
-    distance = targdist;
+  public ClimberReverse(ClimberSubsystem climb) {
     m_robotClimber = climb;
     addRequirements(m_robotClimber);
   }
   @Override
   public void execute() {
     //m_robotIntake.engulf(-1);
-    m_robotClimber.unlock();
+    m_robotClimber.climb(0.2);
   }
   @Override
  public boolean isFinished() {

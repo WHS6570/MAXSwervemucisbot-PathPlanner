@@ -25,6 +25,9 @@ import frc.robot.commands.LockTargetTele;
 import frc.robot.commands.Rotate;
 import frc.robot.commands.Shoot;
 import frc.robot.commands.Untouch;
+import frc.robot.commands.ClimberReverse;
+import frc.robot.commands.ClimberStop;
+import frc.robot.commands.ClimberUnlock;
 import frc.robot.commands.GoThere;
 import frc.robot.commands.IRS;
 import frc.robot.commands.LockTargetAuto;
@@ -181,9 +184,9 @@ public class RobotContainer {
             () -> m_robotSA.zAim(186.0),
             m_robotSA));
             new JoystickButton(OI.m_shooterController, Button.kStart.value)
-        .whileTrue(new RunCommand(
-            () -> m_robotClimber.unlock(),
-            m_robotClimber));
+        .whileTrue(new ClimberReverse(m_robotClimber).withTimeout(.25).andThen(new ClimberUnlock(m_robotClimber).withTimeout(0.1).andThen(new ClimberStop(m_robotClimber))));
+      //      () -> m_robotClimber.unlock(),
+         //   m_robotClimber));
              new JoystickButton(OI.m_shooterController, Button.kBack.value)
         .whileTrue(new RunCommand(
             () -> m_robotClimber.lock(),
